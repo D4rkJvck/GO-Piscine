@@ -19,7 +19,7 @@ func PrintNbr(n int) {
 			n /= 10
 		}
 	}
-	for _, v: range tab {
+	for _, v:= range tab {
 		z01.PrintRune(v)
 	}
 }
@@ -28,4 +28,3 @@ func main() {
 	a := []int{1, 2, 3, 4, 5, 6}
 	ForEach(PrintNbr, a)
 }
-s
